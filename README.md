@@ -24,12 +24,12 @@ Each folder holds one notebook plus its input and output workbooks. Modules feed
 ```
 Eh = 40.5 / d^2.5                 Ks = sqrt(4 kF / (pi a_B))
 C  = 14.4 b exp(-Ks r0) |ZA-ZB| / r0
-Ep = sqrt(Eh^2 + C^2)             fi = C^2 / Ep^2
+Ep = sqrt(Eh^2 + C^2)             
 hbar*omega_p = 28.8 sqrt(N / Vm)
 eps_inf = 1 + (hbar*omega_g / Ep)^2 (1 - x + x^2/3),  x = Ep / 4Ef
 eps(i xi) = 1 + (eps_inf - 1) / (1 + (xi/omega_UV)^alpha)
 omega_UV = 3.05 Eg^0.736
-H = (3 kB T / 4 pi) sum_n int Li3(r^2) dpsi,  r = (A-1)/(A+1)
+H = (3 kB T / 4 pi) sum_n int Li3(r^2) dpsi,  
 E_vdW = H / (12 pi D0^2), D0 = 1.66 A       E_total = E_vdW / (1 - f_Pauling)
 ```
 
