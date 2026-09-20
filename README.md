@@ -33,8 +33,6 @@ H = (3 kB T / 4 pi) sum_n int Li3(r^2) dpsi,
 E_vdW = H / (12 pi D0^2), D0 = 1.66 A       E_total = E_vdW / (1 - f_Pauling)
 ```
 
-Two conventions matter when adding compounds. Screening density uses sp electrons only (16 for MX2, 22 for MX3, 8 for the monohalides), while the plasma energy uses 18 for the monohalides with the filled d10 shell counted. And eps_inf derives from the Penn gap Ep, computed from crystallography alone; the measured optical gap Eg enters only through omega_UV in the Hamaker step. The `Ionicity` column feeding E_total is the Pauling value, not the PVP fi.
-
 ## Requirements
 
 Python 3.10+, pandas, numpy, openpyxl, plus pymatgen (Bandgap) and mendeleev (Ionicity). Developed under 3.12.7.
